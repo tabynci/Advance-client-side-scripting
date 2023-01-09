@@ -1,0 +1,123 @@
+.Movie{
+    font-size:30px;
+    font-style:italic;
+    font-weight: bolder;
+    color:antiquewhite;
+    text-align: center;
+}
+  .conatiner{
+    background-image: url(../images/movie.jpg);
+    height:40em;
+    width:100%;
+    float:left;
+  }
+  .heading{
+    font-size:20px;
+    font-style:italic;
+    font-weight: bolder;
+  }
+.container1{
+    text-align: left;
+    font-size:20px;
+    font-style:italic;
+    font-weight: bolder;
+    /* background-image: url(../images/image2.jpg);; */
+    background-color: white;
+    height: 500px;
+    float:left;
+    padding:50px 100px 30px 100px;
+    }
+
+.imageLeft{
+  height: 500px;
+  float:left;
+  padding:5px 10px 30px 100px;
+}
+
+.show{
+  display: block;
+}
+
+.hide{
+  display:none;
+}
+
+.ticket{
+  float: left;
+  padding:50px 10px 30px 100px;
+}
+
+.plot {
+  width: 500px;
+}
+
+.textbox{
+    text-align: center;
+}
+.input{
+  color:rgb(235, 200, 149);
+  font-size: 25px;
+}
+.btn{
+  background-color: #2b7171;
+  border: none;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  margin: 0px 0px;
+  width:140px;
+  border-radius: 20px;
+}
+/* body{
+  background-color: bisque;
+} */
+
+ul {
+  list-style-type: none; /* Remove bullets */
+  padding: 0; /* Remove padding */
+  margin: 0; /* Remove margins */
+}
+
+li {
+  font-weight: bold;
+  padding-bottom: 10px
+}
+/* Div home alone styling */
+.wraper{
+  width:500px;
+}
+.Home-alone, .predator{
+  float:left;
+  padding:25px;
+}
+/* keep left image in userpage */
+.left{
+   padding-bottom:30px;
+}
+.matter{
+  float: right;
+  padding-left: 250px;
+  padding-top: 100px;
+  padding-bottom: 20px;
+}
+.spiderman, .pennywise{
+  float:right;
+}
+.matter1{
+  float: left;
+  padding-right: 250px;
+  padding-top: 100px;
+  padding-bottom: 20px;
+}
+.spiderman, .predator{
+  padding-top: 20px;
+  padding-bottom: 20px;
+}.cart{
+  background-image: url(../images/cart1.jpg);
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 100px;
+}

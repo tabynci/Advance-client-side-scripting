@@ -1,0 +1,77 @@
+
+// @mixin centerer($background,$color){
+//     height:60vh;
+//     text-align: center;
+//     background:$background;
+//     border: solid $color;
+//     $color:$color;
+//     border-radius: 1em;
+//     width:50vh;
+//     position: absolute;
+//     top: 50%;
+//     left: 50%;
+//     transform: translate(-50%, -50%);
+// }
+
+// .login{
+//     @include centerer(white,pink);
+//     button {
+//         background: primaryBtn;
+//         &:hover {
+//             color: rgb(170, 10, 32);
+//         }
+//         //  width: 70px;
+//         // height: 30px;
+//         width: 80px;
+//         height: 70px;
+//         background-color: aqua;
+//     }
+// }
+
+// @mixin props($background,$color){
+//     height:60vh;
+//     text-align: center;
+//     background:$background;
+//     border: solid $color;
+//     $color:$color;
+//     border-radius:1em;
+//     width:50vh;
+//     position: absolute;
+//     top: 50%;
+//     left: 50%;
+//     transform: translate(-50%, -50%);
+
+// }
+// .register {
+//     @include props(white,pink);
+//     button {
+//         background: primaryBtn;
+//         &:hover {
+//             color: rgb(170, 10, 32);
+//         }
+//         width: 60px;
+//         height: 30px;
+//         background: rgb(72, 152, 237) ;
+//     }
+// }
+// // .loginbody{
+// //     background-color: red;
+// //     width: 100%;
+// //     height:1200%;
+// // }
+// .login-main{
+//     // background-color: rgba(24, 212, 229, 0.827);
+//     background-image: url(./images/n.jpg);;
+//     height: 80em;
+//     width:120em;
+// }
+// .register-main{
+//     // background-color: rgb(33, 130, 233);
+//     background-image: url(./images/R.jpg);
+//     height: 80em;
+//     width:120em;
+// }
+
+
+
+//Api http://www.omdbapi.com/?t=Despicable%20Me%203&year=2017&apikey=d7c31c70
